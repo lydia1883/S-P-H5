@@ -1,0 +1,181 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+
+    <link href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/vendor/bootstrapValidator.css" rel="stylesheet">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="main_box">
+        <header class="clearfix">
+            <div class="imgWrap">
+                <img src="./img/S&amp;PEventRegistration.jpg" class="img-responsive">
+            </div>
+            <div class="titleWrap">
+                <strong class="title-text">
+                    保险业国别风险评估：中国寿险
+                </strong>
+            </div>
+        </header>
+
+        <div class="fieldWrap">
+            <h4>
+                提交表格后开始下载完整报告！
+            </h4>
+
+            <form id="form-all">
+                <div class="form-group">
+                    <label for="userName">姓名</label>
+                    <input type="text" name="userName" class="form-control" id="userName" placeholder="姓名">
+                </div>
+                <div class="form-group">
+                    <label for="Email">邮件</label>
+                    <!-- <input class="form-control input-validation-error" data-val="true" data-val-email="不是一个有效的电子邮件地址 。" 
+                    data-val-required="必填字段" id="Email" name="email" placeholder="邮件" type="text" value=""> -->
+                    <input type="email" name="email" class="form-control" id="Email" placeholder="邮件">
+                </div>
+                <div class="form-group">
+                    <label for="telephone">电话（选填）</label>
+                    <input type="text" name="telephone" class="form-control" id="telephone" placeholder="电话">
+                </div>
+
+                <div class="form-group">
+                    <label for="company">公司名称</label>
+                    <input type="text" name="company" class="form-control" id="company" placeholder="公司名称">
+                </div>
+                <div class="form-group">
+                    <label for="CompanyType">公司种类</label>
+                    <select class="form-control" data-val="true" name="companyType" data-val-required="必填字段" id="CompanyType" name="CompanyType">
+                        <option value="">选择</option>
+                        <option value="Academia">Academia</option>
+                        <option value="Asset Manager">Asset Manager</option>
+                        <option value="Asset Owner">Asset Owner</option>
+                        <option value="Auditors/Accounting">Auditors/Accounting</option>
+                        <option value="Automobiles and Components">Automobiles and Components</option>
+                        <option value="Capital Goods">Capital Goods</option>
+                        <option value="Commercial Bank">Commercial Bank</option>
+                        <option value="Commercial Services and Supplies">Commercial Services and Supplies</option>
+                        <option value="Consumer Durables and Apparel">Consumer Durables and Apparel</option>
+                        <option value="Consumer Services">Consumer Services</option>
+                        <option value="Credit Union">Credit Union</option>
+                        <option value="Food, Beverage and Tobacco">Food, Beverage and Tobacco</option>
+                        <option value="Food and Staples Retailing">Food and Staples Retailing</option>
+                        <option value="Government Entity/Regulatory Agency">Government Entity/Regulatory Agency</option>
+                        <option value="Healthcare Equipment and Services">Healthcare Equipment and Services</option>
+                        <option value="Hedge Fund">Hedge Fund</option>
+                        <option value="Household and Personal Products">Household and Personal Products</option>
+                        <option value="Individual">Individual</option>
+                        <option value="Information Provider">Information Provider</option>
+                        <option value="Insurance">Insurance</option>
+                        <option value="Investment Bank">Investment Bank</option>
+                        <option value="Law Firm">Law Firm</option>
+                        <option value="Materials">Materials</option>
+                        <option value="Media/Telecom">Media/Telecom</option>
+                        <option value="Metals/Mining">Metals/Mining</option>
+                        <option value="Oil and Gas">Oil and Gas</option>
+                        <option value="Pharmaceuticals, Biotechnology and Life Sciences">Pharmaceuticals, Biotechnology and Life Sciences</option>
+                        <option value="Power">Power</option>
+                        <option value="Private Equity">Private Equity</option>
+                        <option value="Public Relations/Investor Relation Firm">Public Relations/Investor Relation Firm</option>
+                        <option value="Recruiter/Headhunter">Recruiter/Headhunter</option>
+                        <option value="Real Estate">Real Estate</option>
+                        <option value="Retailing">Retailing</option>
+                        <option value="Strategy/Business Consulting">Strategy/Business Consulting</option>
+                        <option value="Technology">Technology</option>
+                        <option value="Trade Association">Trade Association</option>
+                        <option value="Trading Companies and Distributors">Trading Companies and Distributors</option>
+                        <option value="Transportation">Transportation</option>
+                        <option value="Unclassified">Unclassified</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="city">城市</label>
+                    <input type="text" class="form-control" name="city" id="city" placeholder="城市">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="submitBtn">
+        <button id="submit" class="btn btn-default btn-block">提交信息 开始下载</button>
+    <footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="js/vendor/bootstrapValidator.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')
+
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview')
+        var winHeight = $(window).height(); //获取当前页面高度
+        $(window).resize(function () {
+            var thisHeight = $(this).height();
+            console.log(thisHeight,"thisHeight")
+            if (winHeight - thisHeight > 50) {
+                //当软键盘弹出，在这里面操作
+                $(".submitBtn").css("display", "none")
+            } else {
+                //当软键盘收起，在此处操作
+                $(".submitBtn").css("display", "block")
+            }
+        });
+
+        // $(".form-control").focus(function () {
+        //     console.log(3)
+        //     // if (Math.floor(this.getBoundingClientRect().top) >= Math.floor((window.innerHeight / 2))) {
+        //         $(".submitBtn").css("display", "none")
+        //     // };
+        // }).onselect(function () {
+        //     $(".submitBtn").css("display", "block")
+        // }).blur(function () {
+        //     $(".submitBtn").css("display", "block")
+        // })
+        // $("input[type='text']").blur(function () {
+        //     $(this).val($(this).val().trim())
+        // })
+
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
